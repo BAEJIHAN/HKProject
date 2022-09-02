@@ -1,0 +1,6 @@
+13FKHeadHitLeft 2
+14FKHeadHitRIght 2
+14FKHeadIdleLeft 6
+15FKHeadIdleRight 6
+15FKHeadDeathLeft 13
+16FKHeadDeathRight 13

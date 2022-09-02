@@ -1,0 +1,10 @@
+14HMonAttackLeft 4
+15HMonAttackRight 4
+19HMonAttackStartLeft 4
+20HMonAttackStartRight 4
+13HMonDeathLeft 9
+14HMonDeathRight 9
+12HMonIdleLeft 6
+13HMonIdleRight 6
+12HMonWalkLeft 6
+13HMonWalkRight 6

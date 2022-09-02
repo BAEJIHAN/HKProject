@@ -1,0 +1,10 @@
+14BMonAttackLeft 7
+15BMonAttackRight 7
+13BMonDeathLeft 6
+14BMonDeathRight 6
+12BMonIdleLeft 5
+13BMonIdleRight 5
+13BMonStompLeft 8
+14BMonStompRight 8
+12BMonWalkLeft 8
+13BMonWalkRight 8

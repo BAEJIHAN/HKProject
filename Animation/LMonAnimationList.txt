@@ -1,0 +1,8 @@
+14LMonAttackLeft 8
+15LMonAttackRight 8
+13LMonDeathLeft 5
+14LMonDeathRight 5
+12LMonIdleLeft 6
+13LMonldleRight 6
+12LMonWalkLeft 7
+13LMonWalkRight 7

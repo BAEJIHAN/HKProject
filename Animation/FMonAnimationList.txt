@@ -1,0 +1,8 @@
+14FMonAttackLeft 6
+15FMonAttackRight 6
+19FMonAttackStartLeft 5
+20FMonAttackStartRight 5
+12FMonIdleLeft 8
+13FMonIdleRight 8
+13FMonDeathLeft 2
+14FMonDeathRight 2

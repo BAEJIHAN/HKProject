@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00.Mymain">
+      <UniqueIdentifier>{18ea0cf1-7313-4c19-bdb7-f6e2d056b663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Mymain\Scene">
+      <UniqueIdentifier>{14a34c4e-cd6c-40a8-b476-cc65f734cf7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Mymain\Object">
+      <UniqueIdentifier>{01de8c81-a85b-4cd3-a5a8-1c09b5e1f85f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Mymain\Object\Animation">
+      <UniqueIdentifier>{5ddbb29e-ebd1-4a54-87c3-f3900577f9bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Mymain\Object\Attack">
+      <UniqueIdentifier>{9f577f49-7e72-4a31-a605-7e844035d9eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Mymain\Object\BG">
+      <UniqueIdentifier>{c8be001b-84b0-47fe-ba5e-e1d0ac04363d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Mymain\Object\Collider">
+      <UniqueIdentifier>{952a93b4-e67f-4ee9-b9d9-02b1523a268d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Mymain\Object\ETC">
+      <UniqueIdentifier>{d326fcb4-5575-4300-a6b1-7da243ddc441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Mymain\Object\FSM">
+      <UniqueIdentifier>{279a2616-6018-4cba-84e5-fb59cafcfb9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Mymain\Object\Monster">
+      <UniqueIdentifier>{fd1e858a-8cfb-47f8-a5c7-ee432716928f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Mymain\UI">
+      <UniqueIdentifier>{5a8af028-5efe-4b32-95b5-cc946d44a7c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Mymain\Object\Effect">
+      <UniqueIdentifier>{7b417982-df96-401a-982c-e64e6a4864d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Mymain\MouseUI">
+      <UniqueIdentifier>{6c146e2c-9010-4dff-8017-5b35835a6dbf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Scene1.cpp">
+      <Filter>00.Mymain\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Scene2.cpp">
+      <Filter>00.Mymain\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Scene3.cpp">
+      <Filter>00.Mymain\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Scene4.cpp">
+      <Filter>00.Mymain\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TestScene.cpp">
+      <Filter>00.Mymain\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TitleScene.cpp">
+      <Filter>00.Mymain\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\BMonAttackAnimation.cpp">
+      <Filter>00.Mymain\Object\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\BMonsterAnimation.cpp">
+      <Filter>00.Mymain\Object\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\dummyAnimation.cpp">
+      <Filter>00.Mymain\Object\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\dummymonsterAnimation.cpp">
+      <Filter>00.Mymain\Object\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FKAnimation.cpp">
+      <Filter>00.Mymain\Object\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FKHeadLeftAnimation.cpp">
+      <Filter>00.Mymain\Object\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FKHeadRightAnimation.cpp">
+      <Filter>00.Mymain\Object\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FMonsterAnimation.cpp">
+      <Filter>00.Mymain\Object\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\LMonsterAnimation.cpp">
+      <Filter>00.Mymain\Object\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\PlayerMissileAnimation.cpp">
+      <Filter>00.Mymain\Object\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\AttackDown.cpp">
+      <Filter>00.Mymain\Object\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\AttackLeft.cpp">
+      <Filter>00.Mymain\Object\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\AttackRight.cpp">
+      <Filter>00.Mymain\Object\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\AttackUp.cpp">
+      <Filter>00.Mymain\Object\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\BMonAttack.cpp">
+      <Filter>00.Mymain\Object\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\PlayerMissileLeft.cpp">
+      <Filter>00.Mymain\Object\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\PlayerMissileRight.cpp">
+      <Filter>00.Mymain\Object\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\RockDown.cpp">
+      <Filter>00.Mymain\Object\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Scene1BG.cpp">
+      <Filter>00.Mymain\Object\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Scene2BG.cpp">
+      <Filter>00.Mymain\Object\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Scene3BG.cpp">
+      <Filter>00.Mymain\Object\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Scene4BG.cpp">
+      <Filter>00.Mymain\Object\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\TitleBG.cpp">
+      <Filter>00.Mymain\Object\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Scene1Col.cpp">
+      <Filter>00.Mymain\Object\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Scene2Col.cpp">
+      <Filter>00.Mymain\Object\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Scene3Col.cpp">
+      <Filter>00.Mymain\Object\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StartCol.cpp">
+      <Filter>00.Mymain\Object\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\dummy.cpp">
+      <Filter>00.Mymain\Object\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Floor.cpp">
+      <Filter>00.Mymain\Object\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Col.cpp">
+      <Filter>00.Mymain\Object\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\BMonsterState.cpp">
+      <Filter>00.Mymain\Object\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\dummyMonsterState.cpp">
+      <Filter>00.Mymain\Object\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\dummyState.cpp">
+      <Filter>00.Mymain\Object\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FKHeadLeftState.cpp">
+      <Filter>00.Mymain\Object\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FKHeadRightState.cpp">
+      <Filter>00.Mymain\Object\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FMonsterState.cpp">
+      <Filter>00.Mymain\Object\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\LMonsterState.cpp">
+      <Filter>00.Mymain\Object\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\BMonster.cpp">
+      <Filter>00.Mymain\Object\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\dummymonster.cpp">
+      <Filter>00.Mymain\Object\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FK.cpp">
+      <Filter>00.Mymain\Object\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FKHeadLeft.cpp">
+      <Filter>00.Mymain\Object\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FKHeadRight.cpp">
+      <Filter>00.Mymain\Object\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FMonster.cpp">
+      <Filter>00.Mymain\Object\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\LMonster.cpp">
+      <Filter>00.Mymain\Object\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FKState.cpp">
+      <Filter>00.Mymain\Object\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\RockDownState.cpp">
+      <Filter>00.Mymain\Object\FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="Widget\HP.cpp">
+      <Filter>00.Mymain\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\OrangeParticle.cpp">
+      <Filter>00.Mymain\Object\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\DashLeft.cpp">
+      <Filter>00.Mymain\Object\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\DashAnimation.cpp">
+      <Filter>00.Mymain\Object\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\DashRight.cpp">
+      <Filter>00.Mymain\Object\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\WingAnimation.cpp">
+      <Filter>00.Mymain\Object\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\SkillEffectAnimation.cpp">
+      <Filter>00.Mymain\Object\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\GetAttackAnimation.cpp">
+      <Filter>00.Mymain\Object\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\MHitEffectAnimation.cpp">
+      <Filter>00.Mymain\Object\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\DeathBubbleParticle.cpp">
+      <Filter>00.Mymain\Object\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\StoneParticle.cpp">
+      <Filter>00.Mymain\Object\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FKAttack.cpp">
+      <Filter>00.Mymain\Object\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="Widget\MouseAttack.cpp">
+      <Filter>00.Mymain\MouseUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Widget\MouseNormal.cpp">
+      <Filter>00.Mymain\MouseUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Scene0.cpp">
+      <Filter>00.Mymain\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Scene0BG.cpp">
+      <Filter>00.Mymain\Object\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Scene0Col.cpp">
+      <Filter>00.Mymain\Object\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Monster.cpp">
+      <Filter>00.Mymain\Object\Monster</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Scene1.h">
+      <Filter>00.Mymain\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Scene2.h">
+      <Filter>00.Mymain\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Scene3.h">
+      <Filter>00.Mymain\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Scene4.h">
+      <Filter>00.Mymain\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TestScene.h">
+      <Filter>00.Mymain\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TitleScene.h">
+      <Filter>00.Mymain\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\BMonAttackAnimation.h">
+      <Filter>00.Mymain\Object\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\BMonsterAnimation.h">
+      <Filter>00.Mymain\Object\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\dummyAnimation.h">
+      <Filter>00.Mymain\Object\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\dummymonsterAnimation.h">
+      <Filter>00.Mymain\Object\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FKAnimation.h">
+      <Filter>00.Mymain\Object\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FKHeadLeftAnimation.h">
+      <Filter>00.Mymain\Object\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FKHeadRightAnimation.h">
+      <Filter>00.Mymain\Object\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FMonsterAnimation.h">
+      <Filter>00.Mymain\Object\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\LMonsterAnimation.h">
+      <Filter>00.Mymain\Object\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\PlayerMissileAnimation.h">
+      <Filter>00.Mymain\Object\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\AttackDown.h">
+      <Filter>00.Mymain\Object\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\AttackLeft.h">
+      <Filter>00.Mymain\Object\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\AttackRight.h">
+      <Filter>00.Mymain\Object\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\AttackUp.h">
+      <Filter>00.Mymain\Object\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\BMonAttack.h">
+      <Filter>00.Mymain\Object\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\PlayerMissileLeft.h">
+      <Filter>00.Mymain\Object\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\PlayerMissileRight.h">
+      <Filter>00.Mymain\Object\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\RockDown.h">
+      <Filter>00.Mymain\Object\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Scene1BG.h">
+      <Filter>00.Mymain\Object\BG</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Scene2BG.h">
+      <Filter>00.Mymain\Object\BG</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Scene3BG.h">
+      <Filter>00.Mymain\Object\BG</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Scene4BG.h">
+      <Filter>00.Mymain\Object\BG</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\TitleBG.h">
+      <Filter>00.Mymain\Object\BG</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Scene1Col.h">
+      <Filter>00.Mymain\Object\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Scene2Col.h">
+      <Filter>00.Mymain\Object\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Scene3Col.h">
+      <Filter>00.Mymain\Object\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StartCol.h">
+      <Filter>00.Mymain\Object\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\dummy.h">
+      <Filter>00.Mymain\Object\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Floor.h">
+      <Filter>00.Mymain\Object\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Col.h">
+      <Filter>00.Mymain\Object\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="FSM.h">
+      <Filter>00.Mymain\Object\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\BMonster.h">
+      <Filter>00.Mymain\Object\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\dummymonster.h">
+      <Filter>00.Mymain\Object\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FK.h">
+      <Filter>00.Mymain\Object\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FKHeadLeft.h">
+      <Filter>00.Mymain\Object\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FKHeadRight.h">
+      <Filter>00.Mymain\Object\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FMonster.h">
+      <Filter>00.Mymain\Object\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\LMonster.h">
+      <Filter>00.Mymain\Object\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Widget\HP.h">
+      <Filter>00.Mymain\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\OrangeParticle.h">
+      <Filter>00.Mymain\Object\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\DashLeft.h">
+      <Filter>00.Mymain\Object\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\DashAnimation.h">
+      <Filter>00.Mymain\Object\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\DashRight.h">
+      <Filter>00.Mymain\Object\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\WingAnimation.h">
+      <Filter>00.Mymain\Object\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\SkillEffectAnimation.h">
+      <Filter>00.Mymain\Object\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\GetAttackAnimation.h">
+      <Filter>00.Mymain\Object\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\MHitEffectAnimation.h">
+      <Filter>00.Mymain\Object\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\DeathBubbleParticle.h">
+      <Filter>00.Mymain\Object\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\StoneParticle.h">
+      <Filter>00.Mymain\Object\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FKAttack.h">
+      <Filter>00.Mymain\Object\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="Widget\MouseAttack.h">
+      <Filter>00.Mymain\MouseUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Widget\MouseNormal.h">
+      <Filter>00.Mymain\MouseUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Scene0.h">
+      <Filter>00.Mymain\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Scene0BG.h">
+      <Filter>00.Mymain\Object\BG</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Scene0Col.h">
+      <Filter>00.Mymain\Object\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Monster.h">
+      <Filter>00.Mymain\Object\Monster</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client2D.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
